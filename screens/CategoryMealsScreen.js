@@ -1,14 +1,16 @@
 import React from 'react';
-import { StyleSheet, View, Text } from 'react-native';
 
-const CategoryMealsScreen = () => {
-  return <View style={styles.container}>CategoryMealsScreen</View>;
+import {CATEGORIES, MEALS} from '../data/dummy-data';
+import MealList from '../components/MealList';
+
+const CategoryMealScreen = (props) => {
+  const catId = props.route.params?.categoryId ?? 'defaultValue';
+
+  const displayedMeals = MEALS.filter(
+    (meal) => meal.categoryIds.indexOf(catId) >= 0,
+  );
+
+  return <MealList listData={displayedMeals} navigation={props.navigation} />;
 };
 
-const styles = StyleSheet.create({
-  container: {
-    color: 'red',
-  },
-});
-
-export default CategoryMealsScreen;
+export default CategoryMealScreen;

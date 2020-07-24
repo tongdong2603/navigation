@@ -13,18 +13,20 @@
     "@react-native-community/masked-view": "^0.1.10",
     "@react-navigation/bottom-tabs": "^5.7.1",
     "@react-navigation/drawer": "^5.8.5",
-    "@react-navigation/material-bottom-tabs": "^5.2.13",
+    "@react-navigation/material-bottom-tabs": "^5.2.14",
     "@react-navigation/native": "^5.7.0",
     "@react-navigation/stack": "^5.7.0",
     "react": "16.13.1",
     "react-native": "0.63.1",
     "react-native-gesture-handler": "^1.6.1",
     "react-native-ionicons": "^4.6.5",
-    "react-native-paper": "^3.10.1",
+    "react-native-paper": "^3.11.0",
     "react-native-reanimated": "^1.9.0",
     "react-native-safe-area-context": "^3.1.1",
     "react-native-screens": "^2.9.0",
-    "react-native-vector-icons": "^7.0.0"
+    "react-native-vector-icons": "^7.0.0",
+    "react-navigation-header-buttons": "^4.0.2",
+    "sane": "^4.1.0"
   },
   "rnpm": {
     "assets": [
